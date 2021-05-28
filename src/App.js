@@ -32,7 +32,7 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://github.com/pettertorrez"
+          href="https://github.com/PetterTorrez"
           target="_blank"
           rel="noopener noreferrer"
         >
