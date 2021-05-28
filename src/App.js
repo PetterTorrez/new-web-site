@@ -1,23 +1,57 @@
-import logo from './logo.svg';
+import logo_museum from '../src/assets/logo_museum.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+        <p className="header-text">
+          Harvard Museum
+        </p>
+      </header>
+
+      <body className="App-body">
+        <a
+          className="App-link"
+          href="https://drive.google.com/file/d/1GiEIQocqBMhKiEpP5vhH9PLNYk-VUlhV"
+          target="_blank"
+          rel="noopener noreferrer"
+          download
+        >
+          <img src={logo_museum} className="App-logo" alt="logo" />
+        </a>
+
+        <p className="text">
+          Download the museum app in the image above.
+        </p>
+      </body>
+
+      <footer className="App-footer">
+        <p className="footer-text">
+          Pedro Torres Mobile Developer
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/pettertorrez"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          <p className="footer-text">
+            Personal Github
+          </p>
         </a>
-      </header>
+
+        <a
+          className="App-link"
+          href="https://github.com/PetterTorrez/HarvardMuseum"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <p className="footer-text">
+            App repository
+          </p>
+        </a>
+      </footer>
     </div>
   );
 }
